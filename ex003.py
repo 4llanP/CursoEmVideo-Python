@@ -1,0 +1,11 @@
+value = float(input("Enter a value: "))
+value += float(input("Enter another value: "))
+print("="*48)
+print("Is the value {}?".format(value))
+print("="*48)
+n1 = int(input("Enter a value: "))
+n2 = int(input("Enter another value: "))
+s = n1 + n2
+print("="*48)
+print("the sum of the value {} with {} give {}!".format(n1,n2,s))
+print("="*48)
