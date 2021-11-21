@@ -1,0 +1,6 @@
+print("="*48)
+day = int(input("how many days with the car: "))
+km = float(input("how many km with the car: "))
+pay = (km * 0.15) + (day * 60)
+print("you must pay: ${:.2f}".format(pay))
+print("="*48)
